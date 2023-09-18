@@ -3,7 +3,6 @@ import './nav.css'
 
 document.querySelector('#app').innerHTML = `
 <div>
-
   <nav>
     <div class="navbar">
       <div class="nav-logo">

@@ -4,12 +4,14 @@ body {
 }
 
 .top-container {
+    z-index: 0;
+
     background-image: url(./public/a123-hero_1_200.jpg);
     background-color: black;
-    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 600px;
     position: relative;
 
     display: flex;
