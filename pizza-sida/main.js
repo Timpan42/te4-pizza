@@ -1,12 +1,11 @@
 import './style.css'
 
 document.querySelector('#app').innerHTML = `
-  <div>
-    <h1>Hello Vite!</h1>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
+<div>
+  <nav></nav>
+  <main></main>
+  <footer></footer>
+</div>
 `
 
 setupCounter(document.querySelector('#counter'))
