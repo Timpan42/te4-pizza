@@ -1,0 +1,13 @@
+nav {
+    /* filter: blur(1px); */
+    padding: 1rem;
+    position: sticky;
+    z-index: 100;
+    background-color: gray;
+}
+
+.nav-logo {}
+
+.nav-list {}
+
+.nav-item {}
