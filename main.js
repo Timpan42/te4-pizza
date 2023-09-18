@@ -29,9 +29,6 @@ document.querySelector('#app').innerHTML = `
       <h2>Måndag-Tordag: 11-20 | Fredag-Söndag: 12-02 </h2>
       <h3>099-09-pizza</h3>
     </div>
-    <div>
-
-    </div>
 
     <div class="menu-container">
 
