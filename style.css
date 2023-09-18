@@ -1,5 +1,9 @@
 :root {
     font-family: 'Karla', sans-serif;
+    --color-fg: #111;
+    --color-bg: #ececec;
+    --color-primary: hsl(130, 50%, 20%);
+    --color-secondary: hsl(40, 100%, 60%);
 }
 
 body {

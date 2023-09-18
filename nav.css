@@ -4,8 +4,8 @@ nav {
     top: 0;
     z-index: 100;
     /* backdrop-filter: blur(3px); */
-    background-color: hsl(35, 100%, 65%);
-    color: white;
+    background-color: var(--color-primary);
+    color: var(--color-bg);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,7 +32,7 @@ nav {
 }
 
 .nav-item>a {
-    color: white;
+    color: var(--color-bg);
     text-decoration: none;
 }
 
