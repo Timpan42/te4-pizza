@@ -1,6 +1,8 @@
 # pizza arbete (Umepizza)
 
-
+T =  
+S = 
+R = 
 
 ## Planering 
 ### färg
