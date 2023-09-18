@@ -1,8 +1,8 @@
 # pizza arbete (Umepizza)
 
-T =  
-S = 
-R = 
+T = Top container
+S = Meny
+R = Nav
 
 ## Planering 
 ### färg
@@ -12,6 +12,7 @@ Knapp = blå eller ingen stell?
 Text = svart/
 nav = bluer? 
 Loga = 
+Font
 
 
 ### bilder
