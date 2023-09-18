@@ -1,8 +1,8 @@
 # pizza arbete (Umepizza)
 
-T =  
-S = 
-R = 
+T = Top container
+S = Meny
+R = Nav
 
 ## Planering 
 ### färg
