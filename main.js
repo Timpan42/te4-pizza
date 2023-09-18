@@ -3,6 +3,7 @@ import './nav.css'
 
 document.querySelector('#app').innerHTML = `
 <div>
+
   <nav>
     <div class="nav-logo">
       <h1>UMEPIZZA</h1>
@@ -19,10 +20,21 @@ document.querySelector('#app').innerHTML = `
       </li>
     </ul>
   </nav>
+
   <main>
-    <div class="top-container"></div>
-    <div class="menu-container"></div>
-    <div class="contact-container"></div>
+    <div class="top-container">
+      <h1>hej</h1>
+      <h2>då</h2>
+      <h3>Svensson</h3>
+    </div>
+
+    <div class="menu-container">
+
+    </div>
+
+    <div class="contact-container">
+
+    </div>
   </main>
   <footer>
 
