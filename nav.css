@@ -4,7 +4,7 @@ nav {
     top: 0;
     z-index: 100;
     /* backdrop-filter: blur(3px); */
-    background-color: rgba(27, 27, 27);
+    background-color: hsl(35, 100%, 65%);
     color: white;
     display: flex;
     align-items: center;
