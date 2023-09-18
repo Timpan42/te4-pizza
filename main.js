@@ -3,12 +3,14 @@ import './nav.css'
 
 document.querySelector('#app').innerHTML = `
 <div>
-
   <nav>
-    <div class="nav-logo">
-      <h1>UMEPIZZA</h1>
+    <div class="navbar">
+      <div class="nav-logo">
+        <h1>UMEPIZZA</h1>
+      </div>
+      <button class="nav-menu">Menu</button>
     </div>
-    <ul class="nav-list">
+    <ul class="nav-list collapse">
       <li class="nav-item">
         <a href="">Meny</a>
       </li>

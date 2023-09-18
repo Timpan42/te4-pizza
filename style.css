@@ -1,14 +1,21 @@
+:root {
+    font-family: 'Karla', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
 }
 
 .top-container {
+    z-index: 0;
+
     background-image: url(./public/a123-hero_1_200.jpg);
-    height: 600px;
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 600px;
     position: relative;
 
     display: flex;

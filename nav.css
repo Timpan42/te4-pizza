@@ -1,9 +1,11 @@
 nav {
-    /* filter: blur(1px); */
     padding: 1rem;
     position: sticky;
+    top: 0;
     z-index: 100;
-    background-color: gray;
+    /* backdrop-filter: blur(3px); */
+    background-color: hsl(35, 100%, 65%);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,11 +22,44 @@ nav {
     list-style: none;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav-item {
     padding: 0 1rem;
 }
 
 .nav-item>a {
-    color: black;
+    color: white;
     text-decoration: none;
+}
+
+.nav-menu {
+    display: none;
+}
+
+@media (max-width: 599px) {
+    .collapse {
+        display: none;
+    }
+
+    .nav-list {
+        width: 100%;
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .nav-menu {
+        display: block;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
 }
