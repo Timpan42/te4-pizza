@@ -111,6 +111,11 @@ p {
 
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 .top-text {}
 
 .button-container {
