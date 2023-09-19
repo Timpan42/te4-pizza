@@ -113,6 +113,27 @@ p {
 
 .top-text {}
 
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: calc(2vh - 5px);
+    border: none;
+}
+
+.tag-button {
+    color: var(--color-bg);
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: var(--color-secondary);
+    transition: 500ms;
+}
+
+.tag-button:hover {
+    background-color: var(--color-secondary-highlight);
+}
+
 .menu-container {
     width: min(52rem, 100vw - 4rem);
     margin-inline: auto;
