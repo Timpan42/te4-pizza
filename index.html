@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   <title>Umepizza</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/pizzamenu.css">
@@ -18,13 +20,16 @@
   <nav class="navbar">
     <div class="navbar__inner container">
       <a href="/">UMEPIZZA</a>
+      <div class="number">
+        <span class="material-symbols-outlined">call</span>
+        <p>099-09-pizza</p>
+      </div>
       <button class="navbar__button"><span class="material-symbols-outlined">menu</span></button>
       <div class="navbar__collapse">
         <ul>
-          <li><a href="">Meny</a></li>
-          <li><a href="">Meny</a></li>
-          <li><a href="">Meny</a></li>
-          <li><a href="">Meny</a></li>
+          <li><a href="#menu">Meny</a></li>
+          <li><a href="#about">Om Oss</a></li>
+          <li><a href="#contact">Kontakt</a></li>
         </ul>
       </div>
     </div>
@@ -35,11 +40,11 @@
     <div class="top-container">
       <div class="background"></div>
       <h1>Smak av Ume!</h1>
-      <h2>Måndag-Tordag: 11-20 | Fredag-Söndag: 12-02 </h2>
-      <h3>099-09-pizza</h3>
+      <h2>Måndag-Tordag: 11-20</h2>
+      <h2>Fredag-Söndag: 12-02</h2>
     </div>
 
-    <div class="menu-container">
+    <div id="menu" class="menu-container">
       <div class="1-14">
         <ul class="pizza-list">
           <li class="pizza vegetarisk">
@@ -612,7 +617,7 @@
     </div>
   </main>
 
-  <footer class="contact-container">
+  <footer id="contact" class="contact-container">
     <div class="contact-flex">
       <div class="contact-text">
         <h1>Kontakt information</h1>
