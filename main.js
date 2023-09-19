@@ -41,10 +41,10 @@ document.querySelector('#app').innerHTML = `
 
     <div class="menu-container">
       <div class="1-14">
-      ${Pizzamenu1to14}
+        ${Pizzamenu1to14}
       </div>
       <div class="15-28">
-      ${Pizzamenu15to28}
+        ${Pizzamenu15to28}
       </div>
     </div>
   </main>
