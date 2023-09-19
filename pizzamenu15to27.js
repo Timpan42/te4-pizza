@@ -1,4 +1,4 @@
-const Pizzamenu15to28 = document.querySelector('#app').innerHTML = `
+const Pizzamenu15to27 = document.querySelector('#app').innerHTML = `
 <ul  class="pizza-list">
 
   <li class="pizza">
@@ -152,7 +152,15 @@ const Pizzamenu15to28 = document.querySelector('#app').innerHTML = `
     </ul>
   </li>
 
-  <li class="pizza">
+  
+</ul>
+`
+
+export default Pizzamenu15to27
+
+/* 
+
+<li class="pizza">
   <h3>28. Mexikansk special 105.00:-</h3>
     <ul class="ingredients">
       <li><p>tomat</p></li>
@@ -163,7 +171,5 @@ const Pizzamenu15to28 = document.querySelector('#app').innerHTML = `
       <li><p>stark mangosås</p></li>
     </ul>
   </li>
-</ul>
-`
 
-export default Pizzamenu15to28
+*/

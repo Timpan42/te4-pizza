@@ -2,7 +2,7 @@ import './css/style.css'
 import './css/nav.css'
 import './css/pizzamenu.css'
 import Pizzamenu1to14 from './pizzamenu1to14'
-import Pizzamenu15to28 from './pizzamenu15to28'
+import Pizzamenu15to27 from './pizzamenu15to27'
 
 document.querySelector('#app').innerHTML = `
 <div></div>
@@ -44,7 +44,7 @@ document.querySelector('#app').innerHTML = `
       ${Pizzamenu1to14}
       </div>
       <div class="15-28">
-      ${Pizzamenu15to28}
+      ${Pizzamenu15to27}
       </div>
     </div>
   </main>

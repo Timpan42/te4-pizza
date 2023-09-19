@@ -69,12 +69,15 @@ p {
 
 }
 
-.menu-container {
-    display: flex;
-}
-
 .pizza-list {
     list-style: none;
+    width: min(36rem, 100vw);
+    margin-inline: auto;
+    padding: 0rem;
+}
+
+.pizza {
+    margin: 1rem;
 }
 
 .pizza>h3 {
@@ -84,22 +87,16 @@ p {
 
 .ingredients {
     list-style: none;
-
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 .ingredients li {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin: 0.25rem;
 }
 
-.contact-container {
-    background-color: var(--color-primary);
-    display: flex;
-    justify-content: space-between;
-}
+.ingredients p {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
 
-.contact-text {
-    flex-direction: column;
 }
