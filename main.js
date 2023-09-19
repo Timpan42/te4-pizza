@@ -1,11 +1,13 @@
-import './style.css'
-import './nav.css'
-import Pizzamenu from './pizzamenu'
+import './css/style.css'
+import './css/nav.css'
+import './css/pizzamenu.css'
+import Pizzamenu1to14 from './pizzamenu1to14'
+import Pizzamenu15to28 from './pizzamenu15to28'
 
 document.querySelector('#app').innerHTML = `
+<div></div>
 <div>
   <nav>
-
     <div class="navbar">
       <div class="nav-logo">
         <a>UMEPIZZA</a>
@@ -28,16 +30,22 @@ document.querySelector('#app').innerHTML = `
       </li>
     </ul>
   </nav>
-  
+
   <main>
     <div class="top-container">
+      <div class="background"></div>
       <h1>Smak av Ume!</h1>
       <h2>Måndag-Tordag: 11-20 | Fredag-Söndag: 12-02 </h2>
       <h3>099-09-pizza</h3>
     </div>
 
     <div class="menu-container">
-    ${Pizzamenu}
+      <div class="1-14">
+      ${Pizzamenu1to14}
+      </div>
+      <div class="15-28">
+      ${Pizzamenu15to28}
+      </div>
     </div>
   </main>
 
