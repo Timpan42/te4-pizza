@@ -138,6 +138,7 @@ p {
 
 .contact-text {
     flex-direction: column;
+    color: var(--color-bg);
 }
 
 iframe {
