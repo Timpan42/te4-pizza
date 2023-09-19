@@ -112,6 +112,11 @@ p {
 
 .top-text {}
 
+.menu-container {
+    width: min(52rem, 100vw - 4rem);
+    margin-inline: auto;
+}
+
 @media screen and (min-width: 900px) {
     .menu-container {
         display: flex;
@@ -141,6 +146,10 @@ p {
     color: var(--color-bg);
 }
 
+.contact-text a {
+    color: var(--color-bg);
+}
+
 iframe {
     width: min(40rem, 100vw - 4rem);
     height: min(25rem, 100vw - 4rem);
@@ -148,7 +157,7 @@ iframe {
 }
 
 @media screen and (max-width: 720px) {
-    .contact-width {
+    .contact-flex {
         flex-direction: column;
     }
 
