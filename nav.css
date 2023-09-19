@@ -1,5 +1,5 @@
 nav {
-    padding: 1rem;
+    padding: 2rem 1rem;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -13,6 +13,10 @@ nav {
 
 .nav-logo {
     padding: 0 1rem;
+}
+
+.nav-logo>a {
+    font-size: var(--step-1);
 }
 
 .nav-list {
@@ -34,6 +38,7 @@ nav {
 .nav-item>a {
     color: var(--color-bg);
     text-decoration: none;
+    font-size: var(--step-1);
 }
 
 .nav-menu {
