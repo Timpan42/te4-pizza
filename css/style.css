@@ -112,6 +112,20 @@ p {
 
 .top-text {}
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: calc(2vh - 5px);
+    border: none;
+    border-radius: 10px;
+
+}
+
+.tag-button {
+    border: none;
+    background-color: var(--color-secondary);
+}
+
 .menu-container {
     width: min(52rem, 100vw - 4rem);
     margin-inline: auto;
