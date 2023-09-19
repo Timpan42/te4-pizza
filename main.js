@@ -30,7 +30,7 @@ document.querySelector('#app').innerHTML = `
 
   <main>
     <div class="top-container">
-      <h1>Smack av Ume!</h1>
+      <h1>Smak av Ume!</h1>
       <h2>Måndag-Tordag: 11-20 | Fredag-Söndag: 12-02 </h2>
       <h3>099-09-pizza</h3>
     </div>
