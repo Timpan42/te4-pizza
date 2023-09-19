@@ -112,6 +112,11 @@ p {
 
 .top-text {}
 
+.menu-container {
+    width: min(52rem, 100vw - 4rem);
+    margin-inline: auto;
+}
+
 @media screen and (min-width: 900px) {
     .menu-container {
         display: flex;
