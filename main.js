@@ -12,7 +12,9 @@ document.querySelector('#app').innerHTML = `
       <div class="nav-logo">
         <a>UMEPIZZA</a>
       </div>
-      <button class="nav-menu">Menu</button>
+      <button class="nav-menu"><span class="material-symbols-outlined">
+          menu
+        </span></button>
     </div>
 
     <ul class="nav-list collapse">

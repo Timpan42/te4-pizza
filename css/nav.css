@@ -41,8 +41,13 @@ nav {
     font-size: var(--step-1);
 }
 
+.nav-item>a:hover {
+    color: var(--color-text-highlight);
+}
+
 .nav-menu {
     display: none;
+    color: var(--color-bg);
 }
 
 @media (max-width: 720px) {
@@ -58,6 +63,8 @@ nav {
 
     .nav-menu {
         display: block;
+        border: none;
+        background-color: transparent;
     }
 
     .nav-item {
