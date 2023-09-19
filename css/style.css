@@ -40,8 +40,8 @@
     --color-fg: #111;
     --color-bg: #ececec;
     --color-text-highlight: #8d8d8d;
-    --color-primary: hsl(130, 40%, 20%);
-    /* --color-primary: hsl(0, 50%, 35%); */
+    /* --color-primary: hsl(130, 40%, 20%); */
+    --color-primary: hsl(0, 50%, 35%);
     --color-secondary: hsl(40, 80%, 60%);
 
     --navbar-height-desktop: 8rem;
@@ -111,15 +111,8 @@ p {
 
 .top-text {}
 
-
-@media screen and (min-width: 1080px) {
-    .menu-container {
-        display: flex;
-    }
-}
-
 .menu-container {
-    width: min(72rem, 100vw - 4rem);
+    width: min(52rem, 100vw - 4rem);
     margin-inline: auto;
 }
 
