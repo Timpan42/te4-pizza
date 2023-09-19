@@ -44,8 +44,9 @@
     --color-primary: hsl(0, 50%, 35%);
     --color-secondary: hsl(40, 80%, 60%);
 
-    --navbar-height-desktop: 8rem;
-    --navbar-height-mobile: 3rem;
+    --navbar-height-desktop: 10vh;
+    --navbar-height-max: 15vh;
+    --navbar-height-mobile: 3vh;
 }
 
 body {
