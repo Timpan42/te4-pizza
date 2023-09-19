@@ -46,7 +46,7 @@ document.querySelector('#app').innerHTML = `
         ${Pizzamenu1to14}
       </div>
       <div class="15-28">
-      ${Pizzamenu15to27}
+        ${Pizzamenu15to27}
       </div>
     </div>
   </main>
@@ -55,8 +55,8 @@ document.querySelector('#app').innerHTML = `
     <div class="contact-flex">
       <div class="contact-text">
         <h1>Kontakt information</h1>
-        <p>Flygplatsvägen 21, Umeå</p>
-        <p>099-09-pizza</p>
+        <h2>Flygplatsvägen 21, Umeå</h2>
+        <h3>099-09-pizza</h3>
         <p>Photo by <a
             href="https://unsplash.com/@iavnt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ivan
             Torres</a> on <a
