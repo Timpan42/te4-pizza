@@ -48,6 +48,11 @@ p {
 
 }
 
+.container {
+    width: min(52rem, 100vw - 4rem);
+    margin-inline: auto;
+}
+
 .top-container {
     z-index: 0;
 
