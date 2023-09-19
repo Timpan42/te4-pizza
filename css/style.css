@@ -42,7 +42,8 @@
     --color-text-highlight: #8d8d8d;
     /* --color-primary: hsl(130, 40%, 20%); */
     --color-primary: hsl(0, 50%, 35%);
-    --color-secondary: hsl(40, 80%, 60%);
+    --color-secondary-highlight: hsl(130, 40%, 30%);
+    --color-secondary: hsl(130, 40%, 20%);
 
     --navbar-height-desktop: 10vh;
     --navbar-height-max: 15vh;
