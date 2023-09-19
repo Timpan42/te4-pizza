@@ -111,7 +111,7 @@ p {
 
 .top-text {}
 
-@media screen and (min-width: 1080) {
+@media screen and (min-width: 1080px) {
     .menu-container {
         display: flex;
     }
