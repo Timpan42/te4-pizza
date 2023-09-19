@@ -1,5 +1,5 @@
 nav {
-    height: 8rem;
+    height: var(--navbar-height-desktop);
     padding: 0 1rem;
     position: sticky;
     top: 0;
@@ -79,6 +79,6 @@ nav {
     nav {
         flex-direction: column;
         height: auto;
-        padding: 2rem;
+        padding: var(--navbar-height-mobile);
     }
 }
