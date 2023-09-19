@@ -1,9 +1,8 @@
 nav {
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
     position: sticky;
     top: 0;
     z-index: 100;
-    /* backdrop-filter: blur(3px); */
     background-color: var(--color-primary);
     color: var(--color-bg);
     display: flex;
