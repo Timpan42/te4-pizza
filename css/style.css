@@ -157,7 +157,7 @@ iframe {
 }
 
 @media screen and (max-width: 720px) {
-    .contact-width {
+    .contact-flex {
         flex-direction: column;
     }
 
