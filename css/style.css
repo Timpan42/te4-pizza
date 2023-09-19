@@ -146,6 +146,10 @@ p {
     color: var(--color-bg);
 }
 
+.contact-text a {
+    color: var(--color-bg);
+}
+
 iframe {
     width: min(40rem, 100vw - 4rem);
     height: min(25rem, 100vw - 4rem);
