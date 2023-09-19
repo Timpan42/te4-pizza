@@ -3,6 +3,7 @@
     position: sticky;
     top: 0;
     background-color: var(--color-primary);
+    padding: 1rem;
 }
 
 @media (max-width: 599px) {
@@ -28,7 +29,7 @@
 .navbar__button {
     background-color: transparent;
     border: none;
-    color: var(--color-fg);
+    color: var(--color-bg);
 }
 
 @media (min-width: 600px) {
