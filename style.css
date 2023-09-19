@@ -42,6 +42,9 @@
     /* --color-primary: hsl(130, 40%, 20%); */
     --color-primary: hsl(0, 50%, 35%);
     --color-secondary: hsl(40, 80%, 60%);
+
+    --navbar-height-desktop: 8rem;
+    --navbar-height-mobile: 3rem;
 }
 
 body {
@@ -72,8 +75,6 @@ p {
     font-weight: 400;
 }
 
-.container {}
-
 .background {
     z-index: -1;
     top: 0;
@@ -91,7 +92,7 @@ p {
 .top-container {
 
     z-index: 1;
-    height: 50rem;
+    height: calc(100vh - var(--navbar-height-desktop));
     position: relative;
 
     display: flex;
@@ -140,5 +141,9 @@ iframe {
 @media screen and (max-width: 720px) {
     .contact-width {
         flex-direction: column;
+    }
+
+    .top-container {
+        height: calc(100vh - var(--navbar-height-mobile));
     }
 }
