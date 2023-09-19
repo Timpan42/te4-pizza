@@ -1,6 +1,8 @@
-import './style.css'
-import './nav.css'
-import Pizzamenu from './pizzamenu'
+import './css/style.css'
+import './css/nav.css'
+import './css/pizzamenu.css'
+import Pizzamenu1to14 from './pizzamenu1to14'
+import Pizzamenu15to28 from './pizzamenu15to28'
 
 document.querySelector('#app').innerHTML = `
 <div></div>
@@ -38,7 +40,12 @@ document.querySelector('#app').innerHTML = `
     </div>
 
     <div class="menu-container">
-      ${Pizzamenu}
+      <div class="1-14">
+      ${Pizzamenu1to14}
+      </div>
+      <div class="15-28">
+      ${Pizzamenu15to28}
+      </div>
     </div>
   </main>
 
