@@ -1,0 +1,7 @@
+Hemsida för pizzeria i umeå     []
+Hosting på github pages         []
+Meny                            [✔]
+Kontaktinformation              [✔]
+Karta                           [✔]
+Målgrupp                        []
+Legala bilder                   []
