@@ -111,14 +111,14 @@ p {
 
 .top-text {}
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 900px) {
     .menu-container {
         display: flex;
     }
 }
 
 .menu-container {
-    width: min(52rem, 100vw - 4rem);
+    width: min(72rem, 100vw - 4rem);
     margin-inline: auto;
 }
 
@@ -137,6 +137,7 @@ p {
 
 .contact-text {
     flex-direction: column;
+    color: var(--color-bg);
 }
 
 iframe {
