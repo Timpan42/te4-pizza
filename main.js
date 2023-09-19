@@ -3,9 +3,9 @@ import './nav.css'
 import Pizzamenu from './pizzamenu'
 
 document.querySelector('#app').innerHTML = `
+<div></div>
 <div>
   <nav>
-
     <div class="navbar">
       <div class="nav-logo">
         <a>UMEPIZZA</a>
@@ -28,16 +28,17 @@ document.querySelector('#app').innerHTML = `
       </li>
     </ul>
   </nav>
-  
+
   <main>
     <div class="top-container">
+      <div class="background"></div>
       <h1>Smak av Ume!</h1>
       <h2>Måndag-Tordag: 11-20 | Fredag-Söndag: 12-02 </h2>
       <h3>099-09-pizza</h3>
     </div>
 
     <div class="menu-container">
-    ${Pizzamenu}
+      ${Pizzamenu}
     </div>
   </main>
   <footer>
