@@ -22,11 +22,18 @@
 }
 
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1080px) {
     .about-flex {
         flex-direction: column;
     }
 
+    .about-container img {
+        width: min(30rem, 100vw - 4rem);
+        height: min(20rem, 100vw - 4rem);
+    }
+}
+
+@media screen and (max-width: 600px) {
     .about-container img {
         width: min(25rem, 100vw - 4rem);
         height: min(15rem, 100vw - 4rem);
