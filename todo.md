@@ -1,4 +1,4 @@
-Hemsida för pizzeria i umeå     []
+Hemsida för pizzeria i umeå     [✔]
 Hosting på github pages         [✔]
 Meny                            [✔]
 Kontaktinformation              [✔]

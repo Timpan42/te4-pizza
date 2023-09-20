@@ -41,7 +41,6 @@
     --color-fg: #111;
     --color-bg: #ececec;
     --color-text-highlight: #8d8d8d;
-    /* --color-primary: hsl(130, 40%, 20%); */
     --color-primary: hsl(0, 50%, 40%);
     --color-primary-highlight: hsl(0, 70%, 50%);
     --color-secondary-highlight: hsl(130, 40%, 30%);
