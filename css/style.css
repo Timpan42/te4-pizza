@@ -139,6 +139,19 @@ p {
     background-color: var(--color-secondary-highlight);
 }
 
+.vegetarian {
+    display: unset;
+}
+
+.meat {
+    display: unset;
+
+}
+
+.kebab {
+    display: unset;
+}
+
 .menu-container {
     width: min(52rem, 100vw - 4rem);
     margin-inline: auto;
@@ -182,16 +195,6 @@ iframe {
     height: min(25rem, 100vw - 4rem);
     border: 0;
 }
-
-
-.vegetarian {
-    display: unset;
-}
-
-.meat {
-    display: unset;
-}
-
 
 
 @media screen and (max-width: 720px) {
