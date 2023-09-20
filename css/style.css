@@ -50,9 +50,14 @@
     --navbar-height-mobile: 3vh;
 }
 
+html {
+    scroll-padding-top: 13%;
+}
+
 body {
     margin: 0;
     padding: 0;
+    background-color: var(--color-bg);
 }
 
 h1 h2 h3 {
