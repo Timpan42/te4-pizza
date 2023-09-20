@@ -42,7 +42,7 @@
     --color-bg: #ececec;
     --color-text-highlight: #8d8d8d;
     /* --color-primary: hsl(130, 40%, 20%); */
-    --color-primary: hsl(0, 50%, 35%);
+    --color-primary: hsl(0, 50%, 40%);
     --color-secondary-highlight: hsl(130, 40%, 30%);
     --color-secondary: hsl(130, 40%, 20%);
 
@@ -53,6 +53,11 @@
 
 html {
     scroll-padding-top: 13%;
+}
+
+hr {
+    width: 40%;
+    color: var(--color-primary);
 }
 
 body {
@@ -122,7 +127,9 @@ p {
     justify-content: center;
 }
 
-.top-text {}
+#menu {
+    color: var(--color-primary);
+}
 
 .button-container {
     margin-top: 20px;
