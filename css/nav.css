@@ -18,18 +18,28 @@
     font-size: var(--step-2);
     padding: 0 1rem;
     font-weight: bold;
-    margin-right: .5rem;
 }
 
-.container>.number {
+.container>.info {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     margin-right: auto;
     color: var(--color-bg);
 }
 
-.number>span {
-    margin-right: .5rem;
+.number>span,
+.location>span {
+    margin-right: .25rem;
+}
+
+.number,
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.container p {
+    font-size: var(--step--1);
 }
 
 .navbar__inner {
