@@ -183,6 +183,17 @@ iframe {
     border: 0;
 }
 
+
+.vegetarian {
+    display: unset;
+}
+
+.meat {
+    display: unset;
+}
+
+
+
 @media screen and (max-width: 720px) {
     .contact-flex {
         flex-direction: column;
