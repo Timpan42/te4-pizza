@@ -7,29 +7,34 @@ const getKebabClass = document.querySelector('.kebab')
 
 
 vegetarianButton.addEventListener("click", (e) => {
-    if (getMeatClass.style.display === 'none') {
-        getMeatClass.style.display = 'unset'
+    if (getVegetarianClass.style.display === 'unset') {
+        if (getMeatClass.style.display === 'none' && getKebabClass.style.display === 'none') {
+            getMeatClass.style.display = 'unset'
+            getKebabClass.style.display = 'unset'
+        }
+        else {
+            getMeatClass.style.display = 'none'
+            getKebabClass.style.display = 'none'
+        }
     } else {
+        getVegetarianClass.style.display = 'unset'
         getMeatClass.style.display = 'none'
-    }
-
-    if (getKebabClass.style.display === 'none') {
-        getKebabClass.style.display = 'unset'
-    } else {
         getKebabClass.style.display = 'none'
     }
 })
 
 kebabButton.addEventListener("click", (e) => {
-    if (getMeatClass.style.display === 'none') {
-        getMeatClass.style.display = 'unset'
+    if (getKebabClass.style.display === 'unset') {
+        if (getMeatClass.style.display === 'none' && getVegetarianClass.style.display === 'none') {
+            getMeatClass.style.display = 'unset'
+            getVegetarianClass.style.display = 'unset'
+        } else {
+            getMeatClass.style.display = 'none'
+            getVegetarianClass.style.display = 'none'
+        }
     } else {
+        getKebabClass.style.display = 'unset'
         getMeatClass.style.display = 'none'
-    }
-
-    if (getVegetarianClass.style.display === 'none') {
-        getVegetarianClass.style.display = 'unset'
-    } else {
         getVegetarianClass.style.display = 'none'
     }
 })
