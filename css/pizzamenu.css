@@ -1,5 +1,4 @@
 .pizza-list {
-    list-style: none;
     width: min(36rem, 100vw - 4rem);
     margin-inline: auto;
     padding: 0rem;
@@ -9,6 +8,8 @@
 
 .pizza {
     margin: 1rem;
+    font-size: var(--step-1);
+    font-weight: 700;
 }
 
 .pizza>h3 {
