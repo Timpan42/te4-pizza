@@ -8,8 +8,11 @@
     margin-inline: auto;
     display: flex;
     gap: 30px;
-    align-items: center;
 
+}
+
+.about-flex:last-child {
+    margin-top: 2rem;
 }
 
 .about-container img {
