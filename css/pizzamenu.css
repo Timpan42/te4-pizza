@@ -31,3 +31,7 @@
     margin-bottom: 0rem;
 
 }
+
+.pizza>h1 {
+    font-size: var(--step-1);
+}
